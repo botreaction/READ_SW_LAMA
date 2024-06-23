@@ -10,7 +10,7 @@
   "author": "Wily Kun",
   "license": "ISC",
   "dependencies": {
-  "@whiskeysockets/baileys": "latest", 
+  "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys", 
     "@adiwajshing/keyed-db": "latest",
     "@colors/colors": "^1.5.0",
     "audio-decode": "^2.1.3", 
