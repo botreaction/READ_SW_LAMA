@@ -1,3 +1,9 @@
+
+///
+process.on('uncaughtException', console.error)
+///
+    
+
 require('./zass')
 const { default: ZassTdrConnect, delay, PHONENUMBER_MCC, makeCacheableSignalKeyStore, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getAggregateVotesInPollMessage, getContentType } = require("@whiskeysockets/baileys")
 const pino = require('pino')
